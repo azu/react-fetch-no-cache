@@ -1,5 +1,7 @@
 # react-fetch-no-cache
 
+> React's `fetch()` without caching
+
 This is a simple wrapper around the `fetch` API for React/Next.js.
 The `fetch` function prevents caching by React/Next.js.
 
