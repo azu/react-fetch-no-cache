@@ -13,14 +13,14 @@ Next.js has two-cache layer for `fetch` API.
 
 ### Disable caching for Request Memorization
 
-> To opt out of memoization in fetch requests, you can pass an AbortController signal to the request.
+> To opt out of memoization in fetch requests, you can pass an AbortController signal to the request.  
 > [Building Your Application: Caching | Next.js](https://nextjs.org/docs/app/building-your-application/caching)
 
 See also <https://github.com/facebook/react/blob/172a7f629a972fedb9e43fbae4fad0e9b1dc7fee/packages/react/src/ReactFetch.js#L54-L67>
 
 ### Disable caching for Data Store
 
-> For individual data fetches, you can opt out of caching by setting the cache option to no-store. This means data will be fetched whenever fetch is called.
+> For individual data fetches, you can opt out of caching by setting the cache option to no-store. This means data will be fetched whenever fetch is called.  
 > https://nextjs.org/docs/app/building-your-application/caching#opting-out-1 
 
 ## Installation
