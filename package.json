@@ -1,0 +1,30 @@
+{
+  "name": "react-fetch-no-cache",
+  "version": "1.0.0",
+  "description": "React/Next.js fetch function without cache",
+  "type": "module",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./index.js": "./index.js",
+    "./index.d.ts": "./index.d.ts"
+  },
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "next.js",
+    "fetch",
+    "cache",
+    "invalidate",
+    "noCache"
+  ],
+  "author": "azu",
+  "license": "MIT"
+}
