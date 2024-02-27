@@ -7,7 +7,7 @@ The library provide a `fetch` function that prevents caching by React/Next.js.
 
 ## How it works
 
-Next.js has two-cache layer for `fetch` API.
+React/Next.js has two-cache layer for `fetch` API.
 
 - [Building Your Application: Caching | Next.js](https://nextjs.org/docs/app/building-your-application/caching)
 
